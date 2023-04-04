@@ -43,7 +43,11 @@ for i in range(user_number):
 chosenWords = chosenWords[::-1]
 print("Password is : " , chosenWords)
 print("----------------")
+
+
 #Question 3 :
+
+
 shorter = set()
 longer = set()
 for i in range(8):
@@ -78,6 +82,7 @@ print("Union Set : ",unionSet)
 print("--------------")
 
 # Question 4:
+#Part A
 dict = {}
 for i in range(1,31):
     dict[i] = i * (i-1)
@@ -99,7 +104,8 @@ for value in  dict.values():
 
 print("Sum : " , sumValue)
 
-#partd
+#Part D
+
 myNumber = int(input("Enter a number : "))
 while myNumber <1 or myNumber>30:
     myNumber = int(input("Enter a number : "))
@@ -119,6 +125,7 @@ divided = {'Tonyy': 41, 'Rhode': 43, 'Naten': 35}
 we_fall = {'Steve': 39, 'Clint': 35, 'Wanda': 28}
 
 #Part A
+
 print("--------------")
 
 united_we_stand ={}
@@ -132,16 +139,19 @@ for k, v in united_we_stand.items():
 
 
 #Part B
+
 print("************* Removed part : Naten ************")
 united_we_stand.pop("Naten")
 for k,v in united_we_stand.items():
     print(f'{k}   {v} ')
 print("--------------")
+
 #Part C
 
 for key in sorted(united_we_stand.keys()):
     print(key,united_we_stand[key])
 print("--------------")
+
 #Part D
 
 
